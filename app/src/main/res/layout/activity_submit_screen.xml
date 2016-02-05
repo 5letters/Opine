@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backDark"
+    tools:context="com.wanjiakun.opinev0.SubmitScreen">
+
+    <EditText
+        android:id="@+id/edit_message"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:gravity="top"
+        android:minHeight="150dp"
+        android:background="@color/back"
+        android:hint="Send a little piece of wisdom?"
+        android:textSize="18sp"
+        android:textColor="@color/comment"
+        android:textColorHint="@color/hint"/>
+
+    <EditText
+        android:id="@+id/edit_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:hint="About?"
+        android:textSize="18sp"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/hint"/>
+
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="primary" type="color">#FFAE18</item>
+    <item name="primaryDark" type="color">#FFA00E</item>
+    <item name="back" type="color">#FFFFFF</item>
+    <item name="backDark" type="color">#F3F3F3</item>
+    <item name="hint" type="color">#E0E0E0</item>
+    <item name="comment" type="color">#000000</item>
+
+    <item name="appraisal" type="color">#707070</item>
+    <item name="appraisalDark" type="color">#4F4F4F</item>
+
+    <item name="white" type="color">#FFFFFF</item>
+
+</resources>

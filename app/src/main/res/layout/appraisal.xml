@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    android:onClick="pickAppraisal">
+
+    <TextView
+        android:id="@+id/text_appraisal_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subject Here"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:textColor="@color/appraisalDark">
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_appraisal_message"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="Message Here"
+        android:textSize="16sp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/appraisal">
+    </TextView>
+
+</LinearLayout>

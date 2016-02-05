@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">OpineV0</string>
+    <string name="welcome">Welcome to Opine</string>
+
+    <string name="app_id">1548969272020235</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_refresh_friends">Refresh Friends</string>
+    <string name="action_search_friends">Search Friends</string>
+    <string name="title_activity_give_screen">Pick a Friend</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_submit_screen">Send Feedback</string>
+
+    <string name="action_upload_confirm">Confirm Upload</string>
+
+    <string name="action_refresh_appraisal">Refresh Appraisals</string>
+    <string name="action_search_appraisal">Search Appraisals</string>
+    <string name="title_activity_receive_screen">Feedback for You</string>
+
+
+    <string name="title_activity_appraisal_screen">Review Feedback</string>
+    <string name="action_appraisal_discard">Discard Appraisal</string>
+    <string name="action_appraisal_favorite">Favorite Appraisal</string>
+</resources>

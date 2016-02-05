@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashScreen"
+    android:background="@color/primary">
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:scaleType="centerInside"
+        android:layout_weight="7"
+        android:src="@drawable/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:padding="30dp">
+    </ImageView>
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:id="@+id/text_app_name"
+        android:text="@string/welcome"
+        android:textSize="28sp"
+        android:textColor="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:background="@color/white">
+
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/button_give"
+            android:text="Give"
+            android:onClick="Give"
+            android:background="@color/primaryDark"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+        <Button
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/button_receive"
+            android:text="Receive"
+            android:onClick="Receive"
+            android:background="@color/primaryDark"
+            android:textColor="@color/white"
+            android:textSize="17sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
